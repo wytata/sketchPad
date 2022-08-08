@@ -1,0 +1,61 @@
+/* COLORS
+#FDF5DF
+#5EBEC4
+#F92C85
+*/
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#header, #footer {
+    height: 10vh;
+    background-color: #5EBEC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#content {
+    height: 80vh;
+    background-color: #FDF5DF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main {
+    background-color: #F92C85;
+    height: 440px;
+    width: 600px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid {
+    background-color: white;
+    border: 1px solid black;
+    height: 320px;
+    width: 320px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(16, 20px);
+}
+
+.square {
+    border: 1px solid black;
+}
+
+#sizing {
+    background-color: #F92C85;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+}
